@@ -1,4 +1,9 @@
 export interface IButtonProps {
-    title: string;
-    onClick?: React.MouseEventHandler<HTMLButtonElement>;
+  title: string;
+  onClick?: React.MouseEventHandler<HTMLButtonElement>;
+  valid: boolean;
+}
+
+export interface IButtonStyled {
+  valid: boolean;
 }
